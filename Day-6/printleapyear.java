@@ -10,4 +10,4 @@ class PrintLeapYear {
             System.out.println(num + "is not leap year");
         }
     }
-}
+
