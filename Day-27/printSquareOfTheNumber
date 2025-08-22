@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class printsquareofthenumber (String[] args) {
+    Scanner sc = new Scanner(System.in) {
+        System.out.println("Enter the number: ");
+        int n = sc.nextInt();
+        int i = n;
+        System.out.println(n*n);
+    }
+}
