@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class mathclass3 {
+    public static void main(String[] args) {
+        int number = (int)(Math.random()*100);
+        Scanner sc = new Scanner(System.in);
+        int chances=1;
+        boolean isWin = false;
+        while (chances<=5) {
+            System.out.println("Enter the guess number: ");
+            int guess = sc.nextInt();
+            if (guess==number) {
+                isWin = true;
+                System.out.println("congratulation!!!!");
+                System.out.println("you took" + chances+"chances to guess");
+                break;
+            }else if (guess>number) {
+                System.out.println("your guess is greater than the number");
+            }else if (guess<number) {
+                System.out.println("your guess is less than the number");
+            }
+            chances++;
+        }
+        if (!isWin) {
+            System.out.println("you lost the game.. the number is" + number);
+        }
+
+    }
+}

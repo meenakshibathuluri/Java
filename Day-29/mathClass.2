@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class mathclass2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+        int n1 = 100;
+        int n2 = 60;
+        int n3 = 50;
+        int res = Math.max(n1,n2);
+        int smaller1 = Math.min(res,n3);
+        System.out.println("smaller number among three number" + smaller1);
+
+        int max1 = Math.min(n1,n2);
+        int max2 = Math.max(max1,n3);
+        System.out.println("bigger number among three number" + max2);
+
+        int min1 = Math.max(n1,n2);
+        int min2 = Math.min(min1,n3);
+        System.out.println("smaller number among three number" + min1);
+    }
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class mathclass {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+        int n1 = 20;
+        int n2 = 10;
+        if (n1<n2) {
+            System.out.println("n1 is smaller");
+        }else {
+            System.out.println("n2 is smaller");
+        }
+        int minElement = Math.min(n1,n2);
+        System.out.println("minimum element is:" + minElement);
+
+        int maxElement = Math.max(n1,n2);
+        System.out.println("maximum element is:" + maxElement);
+    }
+}
