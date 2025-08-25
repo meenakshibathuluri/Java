@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class printnprimenumber {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number of prime number:  ");
+        int numberofprimenumbers = sc.nextInt();
+        int count = 0;
+        int num = 1;
+        while (true) {
+            if (count==numberofprimenumbers) {
+                break;
+            }
+            int factors = 0;
+            for (int i=1;i<=num;i++) {
+                if (num%i==0) {
+                    factors++;
+                }
+            }
+            if (factors==2) {
+                System.out.println(num);
+                count+=1;
+            }
+            num+=1;
+        }
+
+    }
+}

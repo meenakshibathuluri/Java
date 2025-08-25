@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class continueEx {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the n: ");
+        int n = sc.nextInt();
+        System.out.println("Enter the skip number: ");
+        int skip = sc.nextInt();
+        for (int i=1;i<=n;i++) {
+            if (i==skip) {
+                  continue;
+                System.out.println(i);
+            }
+        }
+    }
+}
