@@ -1,0 +1,27 @@
+public class datatype2 {
+    public static void main(String[] args) {
+      byte b1 = 10;
+      short s1 = b1;
+      System.out.println(b1);
+      b1 = 30;
+      int n = b1;
+      System.out.println(b1);
+      b1 = 50;
+      long l1 = b1;
+      System.out.println(b1);
+      b1 = 20;
+      float f1 = b1;
+      System.out.println(b1);
+      b1 = 40;
+      double d1 = b1;
+      System.out.println(b1);
+
+    }
+}
+//widening type casting: converting the small datatype into large datatype
+//byte we can store in short,int,long,float,double and we cannot store boolean,char.
+//short  we can store in int,long,float,double and we cannot store boolean,char,byte.
+//int  we can store in int,long,float,double and we cannot store boolean,char,byte.
+//long we can store in long,float,double and we cannot store boolean,char,byte,int.
+//float becasuse float is a decimal number and we should not store decimal value in int,long and float value can store in double
+//double bbecasuse double is a decimal number 

@@ -1,0 +1,16 @@
+public class datatype3 {
+    public static void main(String[] args) {
+      int n = 10;
+      byte b1 = (byte)n;
+      System.out.println(n);
+      n = 40;
+      short s1 = (short)n;
+      System.out.println(n);
+      float f1 = 40.8f;
+       long l1 = (long)f1;
+      System.out.println(l1);
+      f1 = 50.6f;
+      n = (int)f1;
+      System.out.println(n);
+    }
+}
