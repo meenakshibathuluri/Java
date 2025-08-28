@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class arrays1 {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+       int arr[] = new int[3];
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+        System.out.println(arr[2]);
+        System.out.println(arr[3]);
+
+    }
+}
+// index starts with 0;
+//end with size-1;
+//declare array -- datatype[] arraysName; or datatype arraysName[] and after that we have give ;
+//declare  integer array -- int[] arr; or int arr[];
+//initialization array -- arrayName = new datatype[size];
+//declare and initialization array
+//datatype[] arrayname = new datatype[size];
+//String arr[] = new String[size];
+//double arr[] = new double[size];
+//byte arr[] = new byte[size];
+//we cannot use same arrayName it will give error
