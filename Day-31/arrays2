@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class arrays2 { //read array element and this is one type 
+        public static void main(String[] args) {
+             Scanner sc = new Scanner(System.in);
+           /* int[] arr = {30,70,65,67};
+            System.out.println(arr[0]);
+            System.out.println(arr[1]);
+            System.out.println(arr[2]);
+            System.out.println(arr[3]);*/
+            System.out.println("enter the size of array: ");
+            int size = sc.nextInt();
+            int [] arr = new int[size];
+            System.out.println("enter" + size + "array element");
+            arr[0] = sc.nextInt();
+            arr[1] = sc.nextInt();
+            arr[2] = sc.nextInt();
+        }
+}
