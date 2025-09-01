@@ -18,6 +18,7 @@ public class linearSearch {
             if (arr[i] == target) {
                 isElementThere = true;
                 index = i;
+                 break;
             }
         }
         System.out.println("element is there at " + index);
