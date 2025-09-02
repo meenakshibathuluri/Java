@@ -23,5 +23,3 @@ public class secondLargestInArray {
         System.out.println("secondLargest: " + secondLargest);
     }
 }
-
-
