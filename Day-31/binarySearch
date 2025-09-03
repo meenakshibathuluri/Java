@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class binarySearch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of array: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("enter" + n + "array element: ");
+        for (int i = 0; i <= n - 1; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("enter the number: ");
+        int reguired = sc.nextInt();
+        int left = 0;
+        int right = n-1;
+        boolean isElementThere = false;
+        while (left<right) {
+            int mid = (left+right)/2;
+            if(arr[mid] == reguired) {
+                isElementThere = true;
+                break;
+            }else if (arr[mid]>reguired) {
+                right = mid-1;
+            }else if (arr[mid]<reguired) {
+                left = mid+1;
+            }
+        }
+        if (isElementThere) {
+            System.out.println("element is there");
+        }else  {
+            System.out.println("element is not there");
+        }
+    }
+}
