@@ -18,7 +18,7 @@ public class secondSmallestInArray {
                 fristSmallest = arr[i];
             }else if(arr[i]<secondSmallest && arr[i]>fristSmallest) {
                 secondSmallest =arr[i];
-            }
+            }                                 
         }
         System.out.println("secondSmallest: " + secondSmallest);
     }
