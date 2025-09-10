@@ -15,6 +15,7 @@ class Codechef
           int secondMultiple = fristMultiple+3;
           int fristDiff = n - fristMultiple;
           int secondDiff = secondMultiple -n;
+          
          if(fristDiff<secondDiff) {
            System.out.println(fristMultiple);
          } else {
