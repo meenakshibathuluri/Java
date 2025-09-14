@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class DuplicateElementInArray {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of array: ");
+        int size = sc.nextInt();
+        int[] arr = new int[size];
+        System.out.println("enter" + size + "array element: ");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+      for (int i=0;i< arr.length;i++) {
+          boolean isDuplicate = false;
+          for (int j=0;j< arr.length;j++) {
+              if (i!=j) {
+                  if (arr[i]==arr[j]) {
+                      isDuplicate = true;
+                      arr[j] = Integer.MIN_VALUE;
+                      break;
+                  }
+              }
+          }
+          if (isDuplicate) {
+              System.out.println(arr[i]);
+          }
+      }
+    }
+}
