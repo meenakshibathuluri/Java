@@ -1,0 +1,30 @@
+import java.awt.*;
+import java.util.Scanner;
+
+public class IntersectionOfArray {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of the frist array: ");
+        int size = sc.nextInt();
+        int[] a = new int[size];
+        System.out.println("enter" + size + "frist array element: ");
+        for (int i = 0; i < a.length; i++) {
+            a[i] = sc.nextInt();
+        }
+        System.out.println("enter the size of the second element: ");
+        int secondArraySize = sc.nextInt();
+        int[] b = new int[secondArraySize];
+        System.out.println("enter the " + secondArraySize + "second element: ");
+        for (int i=0;i<b.length;i++) {
+            b[i] = sc.nextInt();
+        }
+        for (int i=0;i<a.length;i++) {
+            for (int j=0;j<b.length;j++) {
+                if (a[i] == b[j]) {
+                    System.out.println(a[i]);
+                    break;
+                }
+            }
+        }
+    }
+}
