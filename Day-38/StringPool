@@ -1,0 +1,16 @@
+public class StringPool {
+    public static void main(String[] args) {
+     //   String name = "meena";
+     //   String name1 = "Meena";
+    //    String name2 = "rani";
+    //    String name3 = "Rani";
+    //    System.out.println(name.hashCode());
+     //   System.out.println(name1.hashCode());
+     //   System.out.println(name2.hashCode());
+     //   System.out.println(name3.hashCode());
+        String name1 = "sai";
+        String name2 = "sai";
+        System.out.println(name1.hashCode());
+        System.out.println(name2.hashCode());
+    }
+}
