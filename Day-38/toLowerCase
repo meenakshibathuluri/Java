@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class toLowerCase {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the userName: ");
+        String userName = sc.nextLine();
+        userName = userName.toLowerCase();
+        System.out.println(userName.toLowerCase());
+        //it convert user name into toSmallercase and print
+        System.out.println(userName);
+        //it will print original username
+    }
+}
