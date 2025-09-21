@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class ReadingString {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the username: ");
+        String userName = sc.nextLine();
+        System.out.println(userName);//eg:(rock and it will print rock )(rock star it will print rock star)
+        //nextLine means it will print more word in some line
+
+    }
+}

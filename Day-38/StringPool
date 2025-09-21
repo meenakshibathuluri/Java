@@ -8,8 +8,14 @@ public class StringPool {
      //   System.out.println(name1.hashCode());
      //   System.out.println(name2.hashCode());
      //   System.out.println(name3.hashCode());
-        String name1 = "sai";
-        String name2 = "sai";
+       String name1 = "sai";
+       String name2 = "sai";
+        System.out.println(name1.hashCode());
+       System.out.println(name2.hashCode());
+        name1 = "Rock Star";
+        System.out.println(name1.hashCode());
+        System.out.println(name2.hashCode());
+        name2 = "Rocky";
         System.out.println(name1.hashCode());
         System.out.println(name2.hashCode());
     }
