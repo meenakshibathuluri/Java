@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class PalindromeAppr2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int left = 0;
+        int right = str.length()-1;
+        boolean isPlindrome = true;
+        while (left<right) {
+            if (str.charAt(left)!=str.charAt(right)) {
+                isPlindrome = false;
+                break;
+            }
+            left++;
+            right--;
+        }
+        if(isPlindrome) {
+            System.out.println("Palindrome");
+        }else {
+            System.out.println("Not Palindrome");
+        }
+    }    
+}
