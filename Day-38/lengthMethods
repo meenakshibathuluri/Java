@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class lengthMethods {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the userName: ");
+        String userName = sc.nextLine();
+        System.out.println(userName.length());
+        userName = userName.trim();
+        System.out.println(userName);
+        System.out.println(userName.length());
+        String s1 = "meena";
+        System.out.println(s1);
+        System.out.println("enter frist student name: ");
+        String s2 = sc.nextLine();
+        System.out.println("enter second student name: ");
+        String s3 = sc.nextLine();
+        if (s1==s2) {
+            System.out.println("both are equal");
+        }
+    }
+}
