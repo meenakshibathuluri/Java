@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ByteEx {
+    public static void main(String[] args) {
+        byte b = 100;
+        System.out.println(b);
+        //b = 1000;
+        //System.out.println(b); //byte value storing -128 to 127
+        b = 120;
+        System.out.println(b);
+        byte b1 = 'a';
+        System.out.println(b1);//97
+        b1 ='p';
+        System.out.println(b1);
+        Scanner sc = new Scanner(System.in);
+        byte b2 = sc.nextByte();
+        System.out.println(b2);
+        b2 = 'j';
+        System.out.println(b2);
+    }
+}

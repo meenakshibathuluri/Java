@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ShortEx {
+    public static void main(String[] args) {
+        short s1 = 60;
+        System.out.println(s1);
+        short s = 4;
+        System.out.println(s);
+        s = 0;
+        System.out.println(s);
+        s1 = 3;
+        System.out.println(s1);
+        Scanner sc = new Scanner(System.in);
+        short s2 = sc.nextShort();
+        System.out.println(s2);
+        s2 = 50;
+        System.out.println(s2);
+    }
+}

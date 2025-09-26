@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class LongEx {
+    public static void main(String[] args) {
+        long l = 70000l;
+        System.out.println(l);
+        l = 'y';
+        System.out.println(l);
+        long l1 = 'Z';
+        System.out.println(l1);
+        l1 = 90472l;
+        System.out.println(l1);
+        Scanner sc = new Scanner(System.in);
+        long l2 = sc.nextLong();
+        System.out.println(l2);
+        l2 = 10l;
+        System.out.println(l2);
+    }
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class CharDataTypeEx {
+    public static void main(String[] args) {
+      //  char ch = 'a';
+     //   System.out.println(ch);
+     //   ch = 'e';
+    //    System.out.println(ch);
+    //    char ch1 = ch;
+      //  System.out.println(ch1);
+     //   ch1 = 'p';
+      //  System.out.println(ch1);
+        Scanner sc = new Scanner(System.in);
+        char ch = sc.next().charAt(0);
+        System.out.println(ch);
+        ch = 98;
+        System.out.println(ch);
+        char ch1 = 74;
+        System.out.println(ch1);
+        ch = 65;
+        System.out.println(ch);
+    }
+}

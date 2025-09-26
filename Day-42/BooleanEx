@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class BooleanEx {
+    public static void main(String[] args) {
+        boolean b1 = true;
+        System.out.println(b1);
+        b1 = false;
+        System.out.println(b1);
+        //we cannot use some variable name in declaration but we can use dy initialize some variable name so many time
+        b1 = true;
+        System.out.println(b1);
+       // b2 boolean = false;
+       // System.out.println(b2);
+        Scanner sc = new Scanner(System.in);
+        boolean b3 = sc.nextBoolean();
+        System.out.println(b3);
+        boolean isRaining = true;
+        System.out.println(isRaining);
+    }
+}
