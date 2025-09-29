@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class PrintCompositeNumberUsingMethod {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter n: ");
+        int n = sc.nextInt();
+
+        compositeNumbers(n);
+
+    }
+
+    static void compositeNumbers(int n){
+
+        int totalFactors = 0;
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                totalFactors++;
+            }
+        }
+        if (totalFactors != 2) {
+            System.out.println("composite number");
+        } else {
+            System.out.println("Not composite number");
+        }
+    }
+}
