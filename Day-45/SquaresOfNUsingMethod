@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class SquaresOfNUsingMethod {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int n = sc.nextInt();
+
+        int result =  squaresOfN(n);
+
+        System.out.println("Squares of n is: " + result);
+    }
+    static int squaresOfN(int n){
+        return n*n;
+
+    }
+}
