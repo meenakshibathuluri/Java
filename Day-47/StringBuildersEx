@@ -1,0 +1,10 @@
+public class StringBuildersEx {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("hi");
+        System.out.println(sb);
+        sb.append("meenakshi");
+        System.out.println(sb);
+        System.out.println(sb.length());
+    }
+}
