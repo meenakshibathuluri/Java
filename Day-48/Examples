@@ -1,0 +1,25 @@
+public class Examples {
+    public static void main(String[] args) {
+        String str = "hello";
+        //StringBuilder sb = new StringBuilder(str);
+        //System.out.println(sb);
+              //or
+       // StringBuilder sb = new StringBuilder("hello");
+       // System.out.println(sb);
+        StringBuilder sb = new StringBuilder();
+        sb.append("meenu");
+        System.out.println(sb);//meenu
+        sb.setCharAt(4,'l');
+        System.out.println(sb);
+        sb.append("world");
+        System.out.println(sb);
+        sb.reverse();
+        System.out.println(sb);
+        sb.delete(2,5);
+        System.out.println(sb);
+        sb.replace(0,4,"me");
+        System.out.println(sb);
+        sb.insert(3,"laddu");
+        System.out.println(sb);
+    }
+}

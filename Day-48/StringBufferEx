@@ -1,0 +1,18 @@
+public class StringBufferEx {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("meena");
+        System.out.println(sb);//meena
+        sb.reverse();
+        System.out.println(sb);//aneem
+        sb.append(1);
+        System.out.println(sb);//aneem1
+         sb.deleteCharAt(3);
+        System.out.println(sb);//anema1
+         sb.setCharAt(2,'q');
+        System.out.println(sb);//anqm1
+       sb.insert(1,"hello");
+        System.out.println(sb);//ahellonqm1
+        sb.replace(2,4,"");
+        System.out.println(sb);//ahlonqm1
+    }
+}
