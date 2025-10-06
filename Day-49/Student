@@ -1,0 +1,33 @@
+//name is a parameter
+//private is access modifier
+//if we specify any variables with private access modifier
+//we can access that variable only within that class
+//setters = assign value to variable
+//getter = it tell that variable
+//this keyword = it tell that variables belongs to current object
+public class Student {
+   private String name;
+   private  int fee;
+   private String course;
+   public  void setName(String name) {
+      this.name = name;
+   }
+   public void setFee(int fee) {
+       this.fee = fee;
+   }
+   public void setCourse(String course) {
+       this.course = course;
+   }
+   public String getName() {
+       return name;
+   }
+   public int getFee() {
+       return fee;
+   }
+   public String getCourse() {
+       return  course;
+   }
+   public void doHomeWork() {
+       System.out.println("doing home work");
+   }
+}

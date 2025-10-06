@@ -1,0 +1,19 @@
+public class EmployeeObject {
+    public static void main(String[] args) {
+        Employee e1 = new Employee();
+        e1.setId(1);
+        e1.setName("meena");
+        e1.setSalary(30000);
+        System.out.println(e1.getId());
+        System.out.println(e1.getName());
+        System.out.println(e1.getSalary());
+
+        Employee e2 = new Employee();
+        e2.setId(1);
+        e2.setName("meena");
+        e2.setSalary(30000);
+        System.out.println(e2.getId());
+        System.out.println(e2.getName());
+        System.out.println(e2.getSalary());
+    }
+}
