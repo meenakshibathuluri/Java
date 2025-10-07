@@ -1,0 +1,42 @@
+public class StudentWithConstructors {
+   private String name;
+   private  int fee;
+   private String course;
+    Student() {
+
+    }
+    Student(String name,int fee,String course) {
+        this.name = name;
+        this.fee = fee;
+        this.course = course;
+    }
+    Student(String name,int fee) {
+        this.name = name;
+        this.fee = fee;
+    }
+    Student(int fee) {
+        this.fee = fee;
+    }
+   public  void setName(String name) {
+      this.name = name;
+   }
+   public void setFee(int fee) {
+       this.fee = fee;
+   }
+   public void setCourse(String course) {
+       this.course = course;
+   }
+   public String getName() {
+       return name;
+   }
+   public int getFee() {
+       return fee;
+   }
+   public String getCourse() {
+       return  course;
+   }
+    public String toString() {
+        return "Name is : "+this.name+", Fee is: "+this.fee+", Course is: "+this.course;
+
+    }
+}

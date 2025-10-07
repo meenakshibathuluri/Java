@@ -1,0 +1,27 @@
+ public class EmployeeObjectWithConstructors {
+    public static void main(String[] args) {
+        Employee e1 = new Employee(1,"meena",30000);
+        System.out.println(e1);
+        System.out.println(e1.getId());
+        System.out.println(e1.getName());
+        System.out.println(e1.getSalary());
+
+        Employee e2 = new Employee(1,"meena",30000);
+        System.out.println(e2);
+        System.out.println(e2.getId());
+        System.out.println(e2.getName());
+        System.out.println(e2.getSalary());
+
+        Employee e3 = new Employee(1,"meena");
+        System.out.println(e3);
+        System.out.println(e3.getId());
+        System.out.println(e3.getName());
+        System.out.println(e3.getSalary());
+
+        Employee e4 = new Employee(30000);
+        System.out.println(e4);
+        System.out.println(e4.getId());
+        System.out.println(e4.getName());
+        System.out.println(e4.getSalary());
+    }
+}

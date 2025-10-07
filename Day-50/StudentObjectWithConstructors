@@ -1,0 +1,21 @@
+public class StudentObjectWithConstructors {
+    public static void main(String[] args) {
+        Student s1 = new Student("meenakshi",30000,"mysql");
+        System.out.println(s1);
+        System.out.println(s1.getName());
+        System.out.println(s1.getFee());
+        System.out.println(s1.getCourse());
+
+        Student s2 = new Student("usha",30000);
+        System.out.println(s2);
+        System.out.println(s2.getName());
+        System.out.println(s2.getFee());
+        System.out.println(s2.getCourse());
+
+        Student s3 = new Student(3000);
+        System.out.println(s3);
+        System.out.println(s3.getName());
+        System.out.println(s3.getFee());
+        System.out.println(s3.getCourse());
+    }
+}
