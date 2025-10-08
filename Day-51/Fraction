@@ -1,0 +1,55 @@
+public class Fraction {
+    private int numerator;
+    private int denominator;
+    Fraction(int numerator, int denominator) {
+        if(denominator==0) {
+            throw new ArithmeticException();
+        }
+        this.numerator = numerator;
+        this.denominator = denominator;
+        simplify();
+    }
+    Fraction() {
+        
+    }
+    public  void  simplify() {
+        int min = Math.min(numerator,denominator);
+        int god = 1;
+        for (int i=2;i<=min;i++) {
+            if (numerator%i==0 && denominator%i==0) {
+                god = i;
+            }
+        }
+        this.numerator = this.numerator/god;
+        this.denominator = this.denominator/god;
+    }
+    public  void  setNumerator(int numerator) {
+        this.numerator = numerator;
+    }
+    public void setDenominator(int denominator) {
+        if (denominator==0) {
+            throw new ArithmeticException();
+        }
+        this.denominator = denominator;
+    }
+    public int  getNumerator() {
+        return numerator;
+    }
+    public  int getDenominator() {
+        return denominator;
+    }
+    public void printFraction() {
+        simplify();
+        System.out.println(this.numerator+"/"+this.denominator);
+    }
+    public void addFraction() {
+        this.numerator = this.numerator+this.denominator;
+        simplify();
+    }
+    public Fraction addTwoFraction(Fraction fraction2) {
+        Fraction resultFraction = new Fraction();
+        resultFraction.numerator = (this.numerator*fraction2.denominator) + (fraction2.numerator * this.denominator);
+        resultFraction.denominator = this.denominator * fraction2.denominator;
+        return  resultFraction;
+    }
+}

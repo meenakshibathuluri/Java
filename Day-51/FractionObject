@@ -1,0 +1,8 @@
+public class FractionObject {
+    public static void main(String[] args) {
+        Fraction fraction1 = new Fraction(1,4);
+        Fraction fraction2 = new Fraction(5,9);
+        Fraction fraction3 = fraction1.addTwoFraction(fraction2);
+        fraction3.printFraction();
+    }
+}
