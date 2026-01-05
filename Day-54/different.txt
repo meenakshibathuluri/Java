@@ -7,3 +7,10 @@ it will print the data and the cursor will move to next line
 printf : 
 format specifiers formatting
 
+class helloworld {
+    public static void main(String[] args) {
+        System.out.print("HelloWorld");
+        System.out.println("welcome to java");
+        System.out.printf("%.2f",5.0183);
+    }
+}
