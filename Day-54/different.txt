@@ -1,0 +1,9 @@
+print : 
+it will print the data and the cursor will sstay in same line
+
+println : 
+it will print the data and the cursor will move to next line
+
+printf : 
+format specifiers formatting
+
