@@ -14,3 +14,15 @@ class helloworld {
         System.out.printf("%.2f",5.0183);
     }
 }
+
+comments : 
+comment is a non-executable statement used for programmers understanding
+types are :
+1.single line comment
+2.multiple line comment
+1.single line comment : 
+to comment single line 
+syntax : //
+2.multiple line comment :
+to comment multiple line at a time it is called multiple comment
+syntax : /* */
