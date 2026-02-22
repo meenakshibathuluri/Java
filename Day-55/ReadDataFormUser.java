@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ReadDataFormUser {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the is Raining values:");
+           System.out.println("enter the is Raining values:");
            boolean isRaining = sc.nextBoolean();
            System.out.println(isRaining);
 
@@ -18,8 +18,13 @@ public class ReadDataFormUser {
             int b = sc.nextInt();
             System.out.println(b);
 
-        System.out.println("enter the values:");
-        long val = sc.nextLong();
-        System.out.println(val);  
+            System.out.println("enter the values:");
+            long val = sc.nextLong();
+            System.out.println(val);  
+
+           
+            System.out.println("enter the values:");
+            float f = sc.nextFloat();
+            System.out.println(f);   
     }
 }
