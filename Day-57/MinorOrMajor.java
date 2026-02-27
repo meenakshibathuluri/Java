@@ -1,7 +1,9 @@
 import java.util.Scanner;
 public class MinorOrMajor {
     public static void main(String[] args) {
-        int age = 50;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the age value:");
+        int age = sc.nextInt();
         if(age <= 18) {
             System.out.println("minor");
         } else  {

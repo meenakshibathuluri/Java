@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class GreaterAmongTwoNumber {
     public static void main(String[] args) {
         if (10 > 50) {
@@ -9,8 +8,6 @@ public class GreaterAmongTwoNumber {
     }
 }
             or
-
-import java.util.Scanner;
 public class GreaterAmongTwoNumber {
     public static void main(String[] args) {
         int a = 10;
