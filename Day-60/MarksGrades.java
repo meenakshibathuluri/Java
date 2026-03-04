@@ -1,13 +1,9 @@
 import java.util.Scanner;
 public class MarksGrades {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-
         System.out.println("enter the marks of a student:");
-
         int marks = sc.nextInt();
-        
         if(marks>90) {
             System.out.println("student is outstanding");
         } else if(marks>80) {
