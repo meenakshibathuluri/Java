@@ -19,6 +19,6 @@ public class printgrades {
        }else {
            System.out.println("fail");
        }
-       
+
    }    
 }
