@@ -5,7 +5,7 @@ public class Pattern3 {
         System.out.println("enter the values of n: ");
 
         int n = sc.nextInt();
-        for(int i=0;i<n;i++) {
+        for(int i=0;i<=n;i++) {
             for(int j=0;j<i+1;j++) {
                 System.out.print(j+1);
             }
