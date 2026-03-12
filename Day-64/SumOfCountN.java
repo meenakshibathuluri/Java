@@ -9,7 +9,7 @@ public class  SumOfCountN {
 
         while (n>0){
             int remainder=n%10;
-            sum+=remainder;
+            sum += remainder;
             n/=10;
         }
         System.out.println(sum);
