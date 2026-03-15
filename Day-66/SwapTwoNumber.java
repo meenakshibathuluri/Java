@@ -7,9 +7,15 @@ public class SwapTwoNumber {
         System.out.println("Enter the value of b:");
         int b = sc.nextInt();
 
-        int temp = a;
-        a = b;
-        b = temp;
+//        int temp = a;
+//        a = b;
+//        b = temp;
+//        System.out.println(a);
+//        System.out.println(b);
+
+        a = a+b;
+        b = a-b;
+        a = a-b;
         System.out.println(a);
         System.out.println(b);
     }
