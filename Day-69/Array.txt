@@ -1,0 +1,8 @@
+ARRAY : 
+1.ARRAY are used to store group of values
+
+2.ARRAY values has to access using index
+
+3.index will start from 0
+
+4.we can store only homogenous elements(same type of elements)
