@@ -3,7 +3,6 @@ public class DifferentSyntaxArray {
         int[] arr = {10,20,30};
 
         System.out.println(arr.length);
-
         int[] arr1 = new int[6];
         arr1[0] = 10;
         arr1[1] = 20;
