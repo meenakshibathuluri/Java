@@ -1,3 +1,2 @@
-sorting algorithms:
- 
+sorting algorithms: 
 in order to arrange the array elements in ascending order we will sorting algorithms.
