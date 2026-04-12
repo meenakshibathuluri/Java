@@ -1,4 +1,5 @@
 public boolean double23(int[] nums) {
+  
   if(nums.length == 0 || nums.length == 1) {
     return false;
   }
