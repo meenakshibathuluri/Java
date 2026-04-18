@@ -18,8 +18,6 @@ public class Insertion {
         }
         mergeArray(arr1, arr2);
     }
-    
-
     static void mergeArray(int[] arr1, int[] arr2) {
         int[] output = new int[arr1.length + arr2.length];
         int i = 0;
