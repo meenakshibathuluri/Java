@@ -13,15 +13,15 @@ public class CountZerosOnesTwos {
           int zeros = 0;
           int ones = 0;
           int twos = 0;
-        for(int i=0;i<arr.length;i++) {
-            if(arr[i] == 0) {
-                zeros++;
-            } else if(arr[i] == 1) {
-                ones++;
-            } else {
-               twos++;
-            }
-        } 
+            for(int i=0;i<arr.length;i++) {
+                if(arr[i] == 0) {
+                    zeros++;
+                } else if(arr[i] == 1) {
+                    ones++;
+                } else {
+                    twos++;
+                }
+            } 
          System.out.println("Zeros: " + zeros);
          System.out.println("Ones: " + ones);
          System.out.println("Twos: " + twos);
