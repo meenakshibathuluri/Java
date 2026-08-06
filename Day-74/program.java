@@ -1,4 +1,5 @@
 1st program:
+
 class ABC {
     public static void main(String args[]) {
        System.out.println("hello world");
@@ -6,6 +7,7 @@ class ABC {
 }
 
 2nd program:
+
 class ABC {
   public static void main(String args[]) {
     int a=100;
@@ -16,6 +18,7 @@ class ABC {
 }
 
 program 3:
+
 class ABC  {
     public static void main(String args[])  {
         int a=75;
