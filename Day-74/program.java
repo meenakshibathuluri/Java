@@ -34,6 +34,7 @@ class ABC  {
 }
 
 program 4:
+
 class ABC {
    public static void main(String args[]) {
       int a=10;
