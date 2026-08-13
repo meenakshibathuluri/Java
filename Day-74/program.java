@@ -29,12 +29,11 @@ class ABC  {
         c=a/b;
            System.out.println(c);
         c=a%b;
-           System.out.println(c);
+           System.out.println(c);   
     }
 }
 
 program 4:
-
 class ABC {
    public static void main(String args[]) {
       int a=10;
