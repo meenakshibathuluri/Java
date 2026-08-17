@@ -29,4 +29,6 @@ to comment multiple line at a time it is called multiple comment
  a
  b
  c
+ d
+ f
  */
