@@ -22,7 +22,10 @@ types are :
 2.multiple line comment
 1.single line comment : 
 to comment single line 
-syntax : //
+syntax : 
+//
+//
+//
 2.multiple line comment :
 to comment multiple line at a time it is called multiple comment
 /*
