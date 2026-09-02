@@ -25,7 +25,6 @@ to comment single line
 syntax : 
 //
 //
-//
 2.multiple line comment :
 to comment multiple line at a time it is called multiple comment
 /*
