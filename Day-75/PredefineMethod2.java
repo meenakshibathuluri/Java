@@ -2,7 +2,6 @@ public class PredefinedMethods2 {
     public static void main(String[] args) {
         String name1 = "rock";
         String name2 = "rock";
-//        System.out.println(name1 == name2);
         System.out.println(name1.hashCode());
         System.out.println(name2.hashCode());
         String name3 = "Rock";
