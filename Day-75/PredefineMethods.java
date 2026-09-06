@@ -13,7 +13,7 @@ public class PredefinedMethods {
         String company = "accenture company";
         System.out.println("company1 length" + company.length());
 
-        String company2 = "                accenture  company       ";
+        String company2 = "accenture company";
         System.out.println("Company2 length " + company2.length()); // 20
 
         System.out.println("after using trim " + company2.trim().length()); // 18
