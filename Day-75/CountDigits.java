@@ -10,7 +10,6 @@ public class CountDigits {
 
         int digitsCount = 0;
    
-   
 method1:
         for(int i=0;i<word.length();i++) {
             if(word.charAt(i)>=48 && word.charAt(i)<=57) {
