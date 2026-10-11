@@ -1,0 +1,10 @@
+features : 
+1.platform Independent : run on any environment
+2.object oriented concepts : Abstrction, encopsulation, inheritance, polymorphism
+3.simple : no concept  of pointers,explicit memory allocations,structures,operator overloading etc 
+4.secure : secure for internet application 
+5.robust : early checking of errors
+6.portable : java program written on one environment can be executed in another environment
+7.multithreading : concurrent execution of several parts of same program at the same time
+8.distributed application : software that runs on multiple computer connected to a network of the saame time
+9.architecturol neutrl : 
