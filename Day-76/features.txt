@@ -18,8 +18,12 @@ features :
           -> properties
           -> task performed
           -> instance of class
+
 2.object : -> blue print that object follow
            -> number of object
+
 3.astraction : showing only essential prts hiding the implementation details
+
 4.encapsulation : binding variables and methods under single entity
+
 5.polymorphism : acquiring the properties of one class to another class
