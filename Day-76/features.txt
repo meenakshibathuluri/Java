@@ -35,3 +35,12 @@ there are 5 level of programming language
 3.astraction : showing only essential prts hiding the implementation details
 4.encapsulation : binding variables and methods under single entity
 5.polymorphism : acquiring the properties of one class to another class
+4.features of java :
+->object oriented
+->multi threading
+->scalable
+->reliability
+->platform independent
+->WORA(where once run anywhere)
+->memory management
+->portable
