@@ -1,5 +1,6 @@
 1.programming language :
 -> set of instructions given to computer to perform specific task.
+
 2.generations of programming languages :
 there are 5 level of programming language
 ->machine language(1940s-1950s): the native language of the processor ,composed entirely of binary code(0s and 1s).
@@ -7,9 +8,11 @@ there are 5 level of programming language
 ->high-level languages(1960s-present):general purpose languages that use English like statement, structural formatting etc.
 ->declarative/domain-specific languages(1970s-present):non-procedural languages built around a declarative paradigm
 ->artificial intelligence(1980s-beyond):programming architectures built around constraint-based and logic solving
+
 3.types of compiler:
 ->compiler : it will compile complete code at a time
 ->interpreter : it will compile line by line code
+
 4.features : 
 1.platform Independent : run on any environment.
 2.object oriented concepts : Abstrction, encopsulation, inheritance, polymorphism.
@@ -20,12 +23,14 @@ there are 5 level of programming language
 7.multithreading : concurrent execution of several parts of same program at the same time.
 8.distributed application : software that runs on multiple computer connected to a network of the saame time.
 9.architecturol neutral : irrespective of rchitecture the memory allocated to variables will not vary.
+
 5. oops : 
 1.class
 2.object 
 3.astraction
 4.encapsulation 
 5.polymorphism
+ explain :
 1.class : -> real world entity
           -> properties
           -> task performed
